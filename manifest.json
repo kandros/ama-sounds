@@ -1,0 +1,14 @@
+{
+  "name": "AMA sounds",
+  "description": "toooooh",
+  "version": "0.0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "AMA sounds",
+    "default_popup": "popup.html"
+  },
+  "icons": {},
+  "manifest_version": 2
+}
