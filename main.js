@@ -1,6 +1,6 @@
 $('ul').on('click', 'button', function() {
   var sound = ($(this).attr('data-sound'));
-  var soundPath= './' + sound + '.wav';
+  var soundPath= './sounds/' + sound + '.wav';
   playSound(soundPath)
 });
 
