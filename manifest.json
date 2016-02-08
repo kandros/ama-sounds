@@ -1,8 +1,7 @@
 {
   "name": "AMA sounds",
   "description": "toooooh",
-  "version": "0.0.1",
-  "permissions": [
+  "version": "0.1.1",
     "activeTab"
   ],
   "browser_action": {
