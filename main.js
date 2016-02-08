@@ -4,8 +4,11 @@ $('ul').on('click', 'button', function() {
   playSound(soundPath)
 });
 
+var previousSound;
 function playSound(soundPath) {
-  var audio = new Audio(soundPath);
-  audio.currentTime = 0;
-  audio.play();
+  if (typeof previousSound !== 'undefined')
+	  previousSound.pause();
+  var sound = new Audio(soundPath);
+  sound.play();
+  previousSound = sound;
 }
